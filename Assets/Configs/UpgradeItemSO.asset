@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7bc02d9228401686f7776b7ae1b83b, type: 3}
+  m_Name: UpgradeItemSO
+  m_EditorClassIdentifier: 
+  items:
+  - itemName: Lifes
+    cost: 64000000c80000002c01000090010000f4010000
+    description: Add max lifes
+    image:
+    - {fileID: 21300000, guid: a063353e08e6a2d43b163f602fcde0e7, type: 3}
+    value: 0a000000140000001e0000002800000032000000
+    upgradeType: 2
+  - itemName: Fire Rate
+    cost: 64000000c80000002c01000090010000f4010000
+    description: Increase fire rate
+    image:
+    - {fileID: 21300000, guid: 71bd7ac813f06aa46a832ebdc2415fdb, type: 3}
+    value: 0a000000140000001e0000002800000032000000
+    upgradeType: 1
+  - itemName: Ship
+    cost: 64000000c80000002c01000090010000
+    description: Increase fire rate
+    image:
+    - {fileID: 21300000, guid: 317ccc4dbf2e2b745a1b1e80eb9543d0, type: 3}
+    - {fileID: 21300000, guid: 48977d1ad12a6d74b93da2c9bd57b83b, type: 3}
+    - {fileID: 21300000, guid: 95d5e3316c341ab42a0f44c6544d9e53, type: 3}
+    - {fileID: 21300000, guid: 3e9cd167dbec3dd4dbac3b1d9da007fd, type: 3}
+    value: 01000000020000000300000004000000
+    upgradeType: 4
+  - itemName: Weapon
+    cost: 64000000c80000002c01000090010000f4010000
+    description: Increase fire rate
+    image:
+    - {fileID: 21300000, guid: 0adb97049ea747f46af86c7d8d23a91d, type: 3}
+    - {fileID: 21300000, guid: f13c4eeae83569a41a38aca441d105c2, type: 3}
+    - {fileID: 21300000, guid: 4a6033586442dde41b0d6dd0ad29e6d1, type: 3}
+    - {fileID: 21300000, guid: 5cdc9d6973b0fc14dbdaa7fc8f7cbc48, type: 3}
+    - {fileID: 21300000, guid: 27e480edc571a0d4ba8cfc658292004e, type: 3}
+    value: 0100000002000000030000000400000005000000
+    upgradeType: 3
+  - itemName: Damage rate
+    cost: 64000000c80000002c01000090010000f4010000
+    description: Increase fire rate
+    image:
+    - {fileID: 21300000, guid: d4b17af6a007f3b41a9afd18f24286eb, type: 3}
+    value: 0a000000140000001e0000002800000032000000
+    upgradeType: 0

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6244ff16df484d65adefe0551771f823, type: 3}
+  m_Name: BulletPrefabsSo
+  m_EditorClassIdentifier: 
+  BulletPrefabs:
+  - WeaponType: 1
+    Prefab: {fileID: 6555786219588557994, guid: 08f53ac791d69644aa112d656f93b886, type: 3}
+  - WeaponType: 2
+    Prefab: {fileID: 3194971704863525685, guid: b0811c49efb33f7428ffe34871c3ad16, type: 3}
+  - WeaponType: 3
+    Prefab: {fileID: 1876132681401214714, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+  - WeaponType: 4
+    Prefab: {fileID: 14182864027365762, guid: 4d28082e1c01476418e7ee939adebded, type: 3}
+  - WeaponType: 5
+    Prefab: {fileID: 6587650770144479570, guid: eac02270790c3c74c98f4bfee3a00aab, type: 3}
+  - WeaponType: 6
+    Prefab: {fileID: 1662865771887741942, guid: 5dc727300c4c2a848902fcfe82fff7d9, type: 3}
+  - WeaponType: 7
+    Prefab: {fileID: 5257302826921698100, guid: 41710e7c2c6ee894596b13cedae86ba6, type: 3}

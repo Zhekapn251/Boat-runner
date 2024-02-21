@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4712266881935994792
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 971534857876626297, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876132681401214714, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_Name
+      value: BulletCannonEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876132681401214714, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046186838940781508, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2173010207348449981, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3332138571922677620, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150007350609876505, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7774626471393419263, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd1db88e5a1cd754e90618543d1c36c1, type: 3}

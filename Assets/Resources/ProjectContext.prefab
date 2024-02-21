@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8434012162926017754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7743722658372769918}
+  - component: {fileID: 8888808041973789132}
+  - component: {fileID: 9170665986331871680}
+  - component: {fileID: 7828447395305095661}
+  m_Layer: 0
+  m_Name: ProjectContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7743722658372769918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434012162926017754}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8888808041973789132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434012162926017754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e6589720da476459dc6dd71624b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 9170665986331871680}
+  - {fileID: 7828447395305095661}
+  _installerPrefabs: []
+  _parentNewObjectsUnderContext: 1
+  _editorReflectionBakingCoverageMode: 0
+  _buildsReflectionBakingCoverageMode: 0
+  _settings:
+    _ensureDeterministicDestructionOrderOnApplicationQuit: 0
+    _displayWarningWhenResolvingDuringInstall: 1
+    _validationRootResolveMethod: 0
+    _validationErrorResponse: 0
+    _constructorChoiceStrategy: 0
+    _signalSettings:
+      _defaultSyncMode: 0
+      _missingHandlerDefaultResponse: 2
+      _requireStrictUnsubscribe: 0
+      _defaultAsyncTickPriority: 1
+--- !u!114 &9170665986331871680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434012162926017754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac19c54536bb7d4eac4a3ea1cdee290, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bulletPrefabsSo: {fileID: 11400000, guid: c5fc8337ccd7c4242ae1038a9d5b3739, type: 2}
+--- !u!114 &7828447395305095661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8434012162926017754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c700ff3456b8bb4bb942f27ba09a8c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameBootstrapperPrefab: {fileID: 1920538779718790489, guid: bc2decd6417b64a4882af680cd224e23, type: 3}
+  coroutineHandlerPrefab: {fileID: 6374664485385695679, guid: c8575c6bfa0923e41be735121f6e83e7, type: 3}
+  loadingCurtainPrefab: {fileID: 1233692584015276213, guid: c10bb92cde9d90e44b2c6f5485f35d9f, type: 3}
+  audioServicePrefab: {fileID: 1988598085781779100, guid: 66cc894a9437b5f4382429d0028aa19a, type: 3}
+  bulletPoolPrefab: {fileID: 7648066561221490124, guid: e63d55d33d429774c89946a3319dc4bd, type: 3}
+  shopUIPrefab: {fileID: 649161801970262314, guid: 48bbb233228f6574a8a6bef00eb62506, type: 3}
+  upgradeItemsSO: {fileID: 11400000, guid: 99b058181ebd21c4281efad1e839d236, type: 2}
+  LoseLevelUIPrefab: {fileID: 329865182741819165, guid: b973c5a954480b34588d2ff5a64754b6, type: 3}
